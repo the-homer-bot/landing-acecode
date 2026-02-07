@@ -2,6 +2,7 @@
 
 import { motion } from 'framer-motion'
 import { EmailForm } from '@/components/email-form'
+import { FoundingCounter } from '@/components/founding-counter'
 import { Code2, Brain, MessageSquare, FileText, Building2, HelpCircle, CheckCircle2, X, ArrowRight, Zap, TrendingUp } from 'lucide-react'
 
 export default function LandingPage() {
@@ -64,15 +65,10 @@ export default function LandingPage() {
             />
           </motion.div>
 
-          {/* Honest social proof */}
-          <motion.p
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.5, delay: 0.5 }}
-            className="mt-6 sm:mt-8 text-white/40 text-xs sm:text-sm"
-          >
-            🚀 Launching soon · Founding members lock in <span className="text-emerald-400">lifetime pricing</span>
-          </motion.p>
+          {/* Founding member counter */}
+          <div className="mt-6 sm:mt-8">
+            <FoundingCounter />
+          </div>
         </div>
       </section>
 
@@ -399,9 +395,13 @@ export default function LandingPage() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4 px-2">
               Ready to prep for real interviews?
             </h2>
-            <p className="text-white/60 text-sm sm:text-base mb-8 sm:mb-10 px-2">
+            <p className="text-white/60 text-sm sm:text-base mb-6 px-2">
               Join the waitlist. Founding members lock in <span className="text-emerald-400 font-medium">lifetime pricing</span>.
             </p>
+
+            <div className="mb-8">
+              <FoundingCounter />
+            </div>
 
             <div className="max-w-sm sm:max-w-md mx-auto px-2">
               <EmailForm 
