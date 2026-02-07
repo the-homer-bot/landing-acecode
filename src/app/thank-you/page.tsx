@@ -6,7 +6,7 @@ import { Check, Twitter, Linkedin, Copy, ArrowLeft, Code2 } from 'lucide-react'
 import Link from 'next/link'
 import { useState } from 'react'
 
-const SHARE_TEXT = "Just joined the waitlist for AceCode - finally an interview prep platform built for how companies actually interview in 2026. AI mocks for coding, system design & behavioral at $12/mo 🚀"
+const SHARE_TEXT = "Just joined the waitlist for AceCode - finally an interview prep platform built for how companies actually interview in 2026. AI mocks for coding, system design & behavioral 🚀"
 const PRODUCT_URL = "https://landing-acecode.vercel.app"
 
 export default function ThankYouPage() {
@@ -53,7 +53,7 @@ export default function ThankYouPage() {
         >
           Thanks for joining the AceCode waitlist!
           <br />
-          <span className="text-emerald-400">Founding members lock in $9/month forever.</span>
+          <span className="text-emerald-400">Founding members lock in lifetime pricing.</span>
         </motion.p>
 
         {/* What's Next */}
@@ -75,7 +75,7 @@ export default function ThankYouPage() {
             </li>
             <li className="flex items-start gap-3 text-white/60 text-sm">
               <Check className="w-4 h-4 text-emerald-400 mt-0.5 flex-shrink-0" />
-              <span>Founding members keep $9/mo pricing for life</span>
+              <span>Founding members keep their pricing locked for life</span>
             </li>
           </ul>
         </motion.div>

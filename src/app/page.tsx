@@ -71,7 +71,7 @@ export default function LandingPage() {
             transition={{ duration: 0.5, delay: 0.5 }}
             className="mt-6 sm:mt-8 text-white/40 text-xs sm:text-sm"
           >
-            🚀 Launching soon · Founding members get <span className="text-emerald-400">$9/mo forever</span>
+            🚀 Launching soon · Founding members lock in <span className="text-emerald-400">lifetime pricing</span>
           </motion.p>
         </div>
       </section>
@@ -104,23 +104,23 @@ export default function LandingPage() {
                 <div className="p-3 sm:p-4 text-white/60"></div>
                 <div className="p-3 sm:p-4 text-center bg-emerald-500/10 border-x border-emerald-500/20">
                   <span className="text-emerald-400 font-semibold">AceCode</span>
-                  <span className="block text-emerald-400/70 text-[10px] sm:text-xs mt-0.5">$12/mo</span>
+                  <span className="block text-emerald-400/70 text-[10px] sm:text-xs mt-0.5">All-in-one</span>
                 </div>
                 <div className="p-3 sm:p-4 text-center text-white/60">
                   <span>LeetCode</span>
-                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$35/mo</span>
+                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$$</span>
                 </div>
                 <div className="p-3 sm:p-4 text-center text-white/60">
                   <span>Educative</span>
-                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$50/mo</span>
+                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$$</span>
                 </div>
                 <div className="p-3 sm:p-4 text-center text-white/60">
                   <span>Exponent</span>
-                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$99/mo</span>
+                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$$$</span>
                 </div>
                 <div className="p-3 sm:p-4 text-center text-white/60">
                   <span>Human Mocks</span>
-                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$150/ea</span>
+                  <span className="block text-white/40 text-[10px] sm:text-xs mt-0.5">$$$$</span>
                 </div>
               </div>
               {/* Feature rows */}
@@ -327,7 +327,7 @@ export default function LandingPage() {
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-3 sm:mb-4 px-2">
               Everything you need to land the offer
             </h2>
-            <p className="text-white/60 text-sm sm:text-base px-2">Complete interview prep for $12/month.</p>
+            <p className="text-white/60 text-sm sm:text-base px-2">Complete interview prep. One simple price.</p>
           </motion.div>
 
           {/* Live Features */}
@@ -400,7 +400,7 @@ export default function LandingPage() {
               Ready to prep for real interviews?
             </h2>
             <p className="text-white/60 text-sm sm:text-base mb-8 sm:mb-10 px-2">
-              Join the waitlist. Founding members lock in <span className="text-emerald-400 font-medium">$9/month forever</span>.
+              Join the waitlist. Founding members lock in <span className="text-emerald-400 font-medium">lifetime pricing</span>.
             </p>
 
             <div className="max-w-sm sm:max-w-md mx-auto px-2">

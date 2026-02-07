@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'AceCode - AI Interview Prep for the New Era',
-  description: 'Unlimited AI mock interviews for coding, system design, and behavioral. Built for the AI-aware interview formats companies are adopting in 2026. $12/mo.',
+  description: 'Unlimited AI mock interviews for coding, system design, and behavioral. Built for the AI-aware interview formats companies are adopting in 2026.',
   openGraph: {
     title: 'AceCode - AI Interview Prep for the New Era',
     description: 'Unlimited AI mock interviews for coding, system design, and behavioral. Built for the AI-aware interview formats companies are adopting in 2026.',
