@@ -24,7 +24,7 @@ export default function LandingPage() {
               <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
               <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>
             </span>
-            From someone who just went through it
+            Built for 2026 interviews
           </motion.div>
 
           {/* Headline */}
@@ -34,9 +34,9 @@ export default function LandingPage() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 leading-tight"
           >
-            I just landed a job.
+            Interviews changed.
             <br />
-            <span className="gradient-text">Here&apos;s what actually worked.</span>
+            <span className="gradient-text">Your prep should too.</span>
           </motion.h1>
 
           {/* Subheadline */}
@@ -46,11 +46,11 @@ export default function LandingPage() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="text-lg sm:text-xl text-white/60 mb-10 max-w-2xl mx-auto"
           >
-            The interview process has completely changed. Companies don&apos;t just test if you can code anymore — 
+            Companies don&apos;t just test if you can code anymore — 
             they test if you can <span className="text-white">think architecturally</span>, <span className="text-white">use AI effectively</span>, 
             and <span className="text-white">demonstrate product sense</span>.
             <br /><br />
-            I built AceCode to help you prep for interviews as they actually are in 2026.
+            AceCode prepares you for interviews as they actually are in 2026.
           </motion.p>
 
           {/* Email Form */}
@@ -107,7 +107,7 @@ export default function LandingPage() {
               { 
                 old: "LeetCode algorithm grind",
                 new: "System design and architecture focus",
-                desc: "My technical interview wasn't a LeetCode problem. It was a deep-dive into how I'd architect a system. That's where the bar is now."
+                desc: "Technical interviews are shifting from algorithm puzzles to deep-dives into system architecture. That's where the bar is now."
               },
               { 
                 old: "Memorize coding patterns",
@@ -122,7 +122,7 @@ export default function LandingPage() {
               { 
                 old: "Generic behavioral answers",
                 new: "Product sense and critical thinking",
-                desc: "They're testing if you can reason about products, make tradeoffs, and think beyond just the code."
+                desc: "Companies are testing if you can reason about products, make tradeoffs, and think beyond just the code."
               },
             ].map((item, i) => (
               <motion.div
@@ -145,7 +145,7 @@ export default function LandingPage() {
         </div>
       </section>
 
-      {/* What I Did Differently Section */}
+      {/* What Winners Do Differently Section */}
       <section className="py-24 px-4 border-t border-white/5 bg-white/[0.01]">
         <div className="max-w-4xl mx-auto">
           <motion.div
@@ -155,10 +155,10 @@ export default function LandingPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              What I did differently (and it worked)
+              What top candidates do differently
             </h2>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              I didn&apos;t just grind LeetCode. I used AI strategically throughout my entire job search.
+              The engineers landing offers aren&apos;t just grinding LeetCode. They&apos;re using AI strategically throughout the entire job search.
             </p>
           </motion.div>
 
@@ -167,22 +167,22 @@ export default function LandingPage() {
             {[
               { 
                 icon: FileText,
-                title: "Tailored my resume for each job", 
-                desc: "I didn't send the same resume everywhere. I fed the job description to AI and got specific suggestions for how to position my experience for that exact role."
+                title: "Tailor resumes for each job", 
+                desc: "Don't send the same resume everywhere. Feed the job description to AI and get specific suggestions for how to position your experience for that exact role."
               },
               { 
                 icon: Building2,
-                title: "Deep-dived every company before interviews", 
-                desc: "AI helped me understand each company's tech stack, recent news, challenges, and culture. I walked in knowing things most candidates didn't."
+                title: "Deep-dive every company before interviews", 
+                desc: "Understand each company's tech stack, recent news, challenges, and culture. Walk in knowing things most candidates don't."
               },
               { 
                 icon: HelpCircle,
-                title: "Prepared smart questions to ask", 
-                desc: "Instead of generic questions, I had specific, thoughtful questions that showed I'd done my homework. Interviewers noticed."
+                title: "Prepare smart questions to ask", 
+                desc: "Instead of generic questions, have specific, thoughtful questions that show you've done your homework. Interviewers notice."
               },
               { 
                 icon: Brain,
-                title: "Practiced the NEW interview formats", 
+                title: "Practice the NEW interview formats", 
                 desc: "System design with real feedback. Behavioral with follow-up questions. Not just coding puzzles — the actual formats companies use now."
               },
             ].map((item, i) => (
@@ -217,10 +217,10 @@ export default function LandingPage() {
             className="text-center mb-16"
           >
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4">
-              AceCode gives you the same playbook
+              Everything you need to land the offer
             </h2>
             <p className="text-white/60 text-lg max-w-2xl mx-auto">
-              Everything I did manually, packaged into one platform. For $12/month.
+              The complete interview prep toolkit for the AI era. Just $12/month.
             </p>
           </motion.div>
 
@@ -307,8 +307,8 @@ export default function LandingPage() {
           <div className="grid sm:grid-cols-3 gap-6">
             {[
               { 
-                title: "Built by someone who just did this", 
-                desc: "I'm not a company that surveyed engineers. I just went through 5 interview processes and figured out what actually matters."
+                title: "Built from real interview data", 
+                desc: "We studied how companies actually interview in 2025-2026, not how they interviewed 5 years ago."
               },
               { 
                 title: "Prep for 2026, not 2020", 
@@ -421,7 +421,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="py-8 px-4 border-t border-white/5">
         <div className="max-w-4xl mx-auto text-center text-white/30 text-sm">
-          © 2026 AceCode. Built by someone who just went through it.
+          © 2026 AceCode. Interview prep for the AI era.
         </div>
       </footer>
     </main>
